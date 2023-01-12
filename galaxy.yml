@@ -1,0 +1,21 @@
+---
+namespace: jce_redhat
+name: rhsm
+version: '0.1.0'
+readme: README.md
+authors:
+  - Chris Edillon <jce@redhat.com>
+description: Collection for working with Red Hat Subscription Management (RHSM)
+license:
+  - MIT
+tags:
+  - rhsm
+  - redhat
+dependencies:
+  'ansible.netcommon': '>=2.0.0'
+  'community.general': '>=3.0.0'
+repository: https://github.com/jce-redhat/ansible-collection-rhsm
+build_ignore:
+  - .yamllint
+
+...

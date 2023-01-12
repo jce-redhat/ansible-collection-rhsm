@@ -1,0 +1,18 @@
+---
+extends: default
+
+rules:
+  line-length: disable
+  trailing-spaces: enable
+  document-end:
+    present: true
+  indentation:
+    level: error
+    indent-sequences: true
+  truthy:
+    level: error
+    allowed-values:
+      - 'true'
+      - 'false'
+
+...
